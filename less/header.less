@@ -1,0 +1,44 @@
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 38px 19%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    transition: all 0.5s;
+    .logo{
+        display: flex;
+        align-items: center;
+        color: var(--main-color);
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .navbar{
+        display: flex;
+        a{
+            margin: 0 25px;
+            padding: 4px;
+            color: var(--text-color);
+            font-size: var(--p-font);
+            font-weight: 400px;
+            border-bottom: 2px;
+            transition: all .7s;
+            &:hover{
+                color: var(--main-color);
+                border-bottom: 2px solid var(--main-color);
+            }
+        }
+    }
+    #menu-icon{
+        font-size: 34px;
+        cursor: pointer;
+        z-index: 10001;
+        display: none;
+    }
+}
+

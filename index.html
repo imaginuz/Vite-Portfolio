@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="less/style.less">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <main>
+            <header>
+                <a href="#" class="logo">IMAGINUZ</a>
+                <ul class="navbar">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre Mi</a></li>
+                    <li><a href="#home">Contactame</a></li>
+                </ul>
+                
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </header>
+
+            <!--INICIO, HERO-PANEL-->
+            <section class="home" id="home">
+                <div class="home-text">
+                    <h5>Hola, soy Ricardo</h5>
+                    <h1>Estudiante Ingeniería <br> en Ciencias de la Computación</h1>
+                    <!--links de redes sociales-->
+                    <div class="social">
+                        <a href="#">Sigueme en</a>
+                        <a href="https://github.com/imaginuz" target="_blank"><i class="ri-github-fill"></i></a>
+                        <a href="https://www.instagram.com/aginuz_ig/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                    </div>
+                    <div class="button">
+                        <a href="#"><i class="ri-mail-open-line"></i> e-Mail</a>
+                        <a href="#"><i class="ri-arrow-down-line"></i> Curriculum</a>
+                    </div>
+                </div>
+
+                <div class="home-img">
+                    <img src="pictureMe.jpg" alt="">
+                </div>
+            </section>
+
+            <!--sobre mi-->
+            <section class="about" id="about">
+                <div class="centro">
+                    <div class="a-main">
+                        <div class="a-text">
+                            <h2>Sobre Mi</h2>
+                        </div>
+
+                        <div class="a-btn">
+                            <a href="#" class="a2-btn">Habilidades 
+                                <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                    <p>Soy estudiante de ingeniería en Ciencias de la Computación en Universidad Católica de Honduras, 
+                        siempre en disposición de aprender para mejorar mi experiencia en cualquier area de la carrera.</p>
+                </div>
+
+                <div class="about-habilidades">
+                    <div class="box">
+                        <h3>Desarrollo Web</h3>
+                        <a href="#">65% Aprendido</a>
+                    </div>
+                    <div class="box">
+                        <h3>Programación</h3>
+                        <a href="#">65% Aprendido</a>
+                    </div>
+                    <div class="box">
+                        <h3>Redes</h3>
+                        <a href="#">70% Aprendido</a>
+                    </div>
+                <div>
+
+                </div>
+            </section>
+            <section class="about" id="about">
+              <div class="centro">
+                <div class="a-main">
+                    <div class="a-text">
+                        <h2>Tecnologias</h2>
+                    </div>
+
+                    <div class="a-btn">
+                        <a href="#" class="a2-btn">Habilidades 
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+              </div>
+              {{> cards}}
+            </section>
+            <footer>
+                COPYRIGHT © 2024 IMAGINUZ. TODOS LOS DERECHOS RESERVADOS.
+            </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
